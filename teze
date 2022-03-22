@@ -1,0 +1,25 @@
+1. Registracija i logovanje na sistem
+    - Nas sistem bi se integrisao sa bazama koje daju podatke o broju indeksa i fakultetskim/univerzitetskim mailovima
+    koji se koriste za svakodnevni studenstki zivot. Samim tim sto bismo vec koristili podatke koje bi nam fakulteti i 
+    univerziteti dopustili da citamo, gubi se potreba za dodatnim ljudskim naporima. Uz pomoc ovih podataka korisnik se
+    registruje na sistem i (kako je mail vec validiran od strane fakulteta ili univerziteta) odma moze da koristi aplikaciju.
+    Dodatno, kako je npr na nasem univerzitetu neophodno da se produzi validnost maila svake godine, na tabu za registraciju
+    je moguce postaviti sliku nekog dokumenta na osnovu kojeg bi referenti koji vec validiraju ove mailove mogli to da urade
+    kroz nasu aplikaciju.
+    Imamo mogucnost da, u koliko ceo univerzitet ne zeli da se integrise sa nasim sistemom, moze da se integrise na fakultetskom
+    nivou.
+    Takodje, postoji momenat integracije sa nekim ustanovama koje nisu ni fakulteti ni univerziteti, npr matica srpska.
+
+2. Main stranica 
+    - Stranica na kojoj se vrsi izbor fakulteta ciju citaonicu zelimo da koristimo. 
+    - Postoji opcija "Near me" koja ce nuditi fakultete koji se nalaze blizu korisnika u trenutku pretrazivanja.
+    - Pored toga postoji pregled svih popularnih fakulteta u okolini.
+    - Pored svih fakulteta u ove dve liste cemo videti i ustanove cije citaonice moze da koristi bilo koji student.
+    - Na main stranici na dnu se vidi nav bar pomocu kojeg se navigira kroz aplikaciju.
+
+3. Profil fakulteta
+    - Stranica na kojoj se nalaze osnovne informacije o fakultetu, kao i njegova lokacija. Na samom vrhu se vidi
+    slajd nekih od slika citaonice kako bi studenti studenti videli u kakvom bi okruzenju radili.
+    - Postoji i opcija za dodavanje fakulteta u favorite kako bi se do njega moglo brze doci i samim tim celokupno
+    iskustvo poboljsalo.
+    - Na dnu se nalazi lista citaonica i klikom na nekiu se dolazi do izbora stola koji bi korisnik zeleo da zakaze.
