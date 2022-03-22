@@ -23,3 +23,44 @@
     - Postoji i opcija za dodavanje fakulteta u favorite kako bi se do njega moglo brze doci i samim tim celokupno
     iskustvo poboljsalo.
     - Na dnu se nalazi lista citaonica i klikom na nekiu se dolazi do izbora stola koji bi korisnik zeleo da zakaze.
+
+4. citaonica
+    - Nakon izbora citaonice dobija se pregled citaonice i njenih slobodnih i zauzetih stolova za vreme posmatranja.
+    - Izborom stola dobijamo mogucnost da izaberemo vreme za taj sto na dva nacina. 
+        1. nacin je tako sto sami izaberemo vreme za sto (konfigurabilno za fakultet koliko je maksimum)
+        2. nacin je izborom nekog od ponudjenih vremena za koje bismo implementirali AI. Taj AI bi nudio korisniku 
+            mogucnost da klikom rezervise termin.
+    - Nakon toga dobija se notifikacija o uspesnoj rezervaciji.
+
+5. Ceo proces bukinga?
+    - Svaki sto ima svoj qr kod kada se sto dodaje u bazu. 
+    - Dobijeni qr kod se stampa na sto.
+    - Samim tim fakulteti diktiraju koliko i koji stolovi dolaze u obzir prilikom bukiranja mesta i ne moraju svi stolovi
+    iz citaonice da budu za te namene.
+    - Prilikom dolaska na svoj termin i sto, pomocu QR koda iz aplikacije se skenira qr kod, i ako je to zaista nas sto
+    i ako je vreme ono kada imamo rezervaciju aplikacija izbacuje notifikaciju da je sve u redu. Nakon zavrsetka upotrebe
+    stola, qr kod se skenira jos jednom kako bi se korisnik odjavio sa stola i time naznacio do kad je koristio sto. 
+    - Aplikacija nudi mogucnost skupljanja poena aplikacija nudi mogucnost i skupljanja penala koji se dobijaju u koliko korisnik
+    rezervise mesto i ne pojavi se na njemu. Nakon odredjenog broja penala (koji je konfigurabilan na nivou fakulteta), 
+    korisnicima se zabranjuje upotreba bookinga dok ne poslaju obrazlozenje ili nekako ne opravdaju izostanke.
+    - Pola sata pre termina dobija se push notifikacija koja podseca korisnika o terminu koji je rezervisan.
+
+6. Leaderboard i poeni?
+    - Aplikacija nudi momenat gamifikacije gde, u koliko se korisnik ponasa odgovorno i pojavljuje na svojim terminima on 
+    skuplja poene. Skupljeni poeni se mogu unovciti za besplatne rokove (nesto slicno fakulteti nude za dobrovoljno davanje krvi)
+    - Ovim nasa aplikacija podstice rad i unosi kompetitivnost jer postoji leaderboard sistem koji vodi evidenciju o najaktivnijim
+    studentima sa fakulteta.
+    - Ovim dobijamo i lep momenat kompetitivnosti izmedju kolega u okviru fakulteta.
+
+7. Integracije
+    - Nase resenje nudi aplikaciju za telefon i web browser koji su danas najkoriscenije platforme.
+    - Pored toga, nudimo i mogucnost da se fakulteti integrisu sa nasim sistemima upotrebom API-ja i time bi fakulteti,
+    u koliko zele, mogli da posvete delove svojih sajtova za prikaz nase aplikacije.
+    - Fakultetima garantujemo minimalno ili nula downtime-a zato sto ce nase resenje biti podignuto na cloud i sastojace 
+    se iz vise delova kako bismo obezbedili da se delovi koji su pod vecim pritiskom lakse disu.
+
+8. User Profil
+    - Kroz profil korisnika moci ce da se vide razne informacije koje bi studentima bile od znacaja. Jedna od tih 
+    je izvestaj o ucenju koji bi bio dostupan na raznim nivoima (nedelju dana, mesec dana, pola godine ili godinu dana).
+    - Pored toga ovde student bi mogao da ima uvid u istoriju svojih rezervacija kao i da vidi buduce termine koje je 
+    napravio. Samim tim na ovom mestu bi se odredjeni termini mogli otkazati.
